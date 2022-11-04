@@ -51,7 +51,8 @@ span{
 }
 
 .formulario{
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 80%;
     height: fit-content;
     background-color: #ffffff;
@@ -95,4 +96,41 @@ button[type="submit"]:hover{
     color: rgb(211, 210, 210);
     padding: 20px 0;
     text-align:center;
+}
+
+@media (min-width: 1440px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 0; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description{
+        text-align: start;
+        flex-wrap: wrap;
+        margin-right: 40px;
+        margin-left: 121px;
+    }
+
+    .description__p{
+        margin: 0 0 55px;
+    }
+    
+    .secao__button-wrapper_and_formulario{
+        align-items: center;
+    }
+    .button__wrapper{
+        grid-row: 0;
+    } 
+    
+    .secao__formulario{
+        grid-column: span 1;
+        grid-row: 0;
+    } 
+
+    input{
+        display: block;
+    }
 }
