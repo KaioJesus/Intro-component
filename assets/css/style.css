@@ -1,5 +1,5 @@
 body{
-    background-image: url('./assets/img/bg-intro-mobile.png');
+    background-image: url('../img/bg-intro-mobile.png');
     background-color: hsl(0, 100%, 74%) ;
     font-family: 'Poppins', sans-serif;
 }
@@ -19,5 +19,74 @@ main section h1{
 .description__p{
     color: rgb(211, 210, 210);
     font-size: 16px;
-    margin: 0 15px;
+    margin: 0 15px 55px;
+}
+
+.secao__formulario{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.div__button{
+    display: block;
+    margin: 0 auto 15px;
+    width: 100%;
+}
+
+.div__button__trial{
+    width: 90%;
+    height: 58px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px #d76969;
+}
+
+span{
+    color: rgb(211, 210, 210);
+}
+
+.formulario{
+    display: block;
+    width: 80%;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px #d94e4e;
+}
+
+.input{
+    width: 292px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: hsl(249, 10%, 26%);
+    padding-left: 15px;
+}
+
+button[type="submit"]{
+    width: 292px;
+    height: 52px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0 4px #7a997a;
+}
+
+.secao__formulario-p{
+    font-size: 12px;
+    color: rgb(211, 210, 210);
+    padding: 20px 0;
+    text-align:center;
 }
