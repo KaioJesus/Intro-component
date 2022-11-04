@@ -1,0 +1,23 @@
+body{
+    background-image: url('./assets/img/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description{
+    text-align: center;
+
+}
+
+main section h1{
+    padding: 64px 0 32px;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+}
+
+.description__p{
+    color: rgb(211, 210, 210);
+    font-size: 16px;
+    margin: 0 15px;
+}
