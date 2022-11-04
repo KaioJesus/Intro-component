@@ -29,10 +29,11 @@ main section h1{
     box-sizing: border-box;
 }
 
-.div__button{
-    display: block;
-    margin: 0 auto 15px;
+.button__wrapper{
+    display: flex;
+    justify-content: center;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .div__button__trial{
@@ -82,6 +83,11 @@ button[type="submit"]{
     text-transform: uppercase;
     border: none;
     box-shadow: 0 4px #7a997a;
+}
+
+button[type="submit"]:hover{
+   transform: scale(1.1);
+   transition: 0.5s ease;
 }
 
 .secao__formulario-p{
