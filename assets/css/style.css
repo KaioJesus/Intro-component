@@ -98,7 +98,7 @@ button[type="submit"]:hover{
     text-align:center;
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1366px){
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
