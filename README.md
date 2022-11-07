@@ -4,9 +4,9 @@
 
 ### Telas
 
-![Cell results](./assets/.github/preview-cell.png)
+![Cell results](./assets/.github/preview_cell.png)
 
-![Cell results](./assets/.github/preview-cell-2.png)
+![Cell results](./assets/.github/preview_cell-2.png)
 
 ![Pc results](./assets/.github/preview_pc.png)
 
